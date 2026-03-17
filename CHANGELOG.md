@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Added
+- Unit test project (`tests/MozaStreamDeck.Tests/`) with xUnit — 17 tests covering preset JSON parsing and Pit House directory discovery
+- Troubleshooting guide (`docs/TROUBLESHOOTING.md`) covering common issues: crashes, N/C display, preset errors, Pit House auto-launch, and log file locations
+
 ## [1.0.3] - 2026-03-02
 
 ### Changed

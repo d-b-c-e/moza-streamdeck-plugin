@@ -12,6 +12,9 @@ moza-streamdeck-plugin is a Stream Deck plugin for Moza Racing wheel bases. It a
 # Publish the plugin (self-contained, bundles .NET runtime)
 dotnet publish src/MozaStreamDeck.Plugin/MozaStreamDeck.Plugin.csproj -c Release -o src/MozaStreamDeck.Plugin/bin/Release
 
+# Run unit tests
+dotnet test tests/MozaStreamDeck.Tests/MozaStreamDeck.Tests.csproj
+
 # Clean build artifacts
 dotnet clean MozaStreamDeckPlugin.sln
 ```
@@ -42,6 +45,14 @@ moza-streamdeck-plugin/
 │   ├── build-streamdeck-marketplace.ps1  # Build for marketplace submission
 │   ├── list-sdk-methods.ps1       # List available Moza SDK methods
 │   └── generate-placeholder-icons.ps1    # Generate placeholder icons
+│
+├── tests/
+│   └── MozaStreamDeck.Tests/     # xUnit unit tests
+│       ├── PresetProfileTests.cs  # Preset JSON parsing tests
+│       └── PresetManagerTests.cs  # Preset directory discovery tests
+│
+├── docs/
+│   └── TROUBLESHOOTING.md        # User-facing troubleshooting guide
 │
 ├── .github/
 │   └── workflows/

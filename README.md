@@ -116,16 +116,14 @@ I hope you find it useful! I might consider deploying it to the Stream Deck Mark
 
 ## Troubleshooting
 
-### Device Not Connected (N/C)
-1. Ensure Moza Pit House is installed and can see your wheel base
-2. Make sure the wheel base is powered on and connected via USB
-3. Try restarting the Stream Deck software
-4. Check that no other application is exclusively using the Moza SDK
+For detailed troubleshooting, see the [Troubleshooting Guide](docs/TROUBLESHOOTING.md).
 
-### Values Not Updating
-- The plugin retries connection automatically every second
-- Press a dial or interact with a button to force a refresh
-- Restart Stream Deck if issues persist
+### Quick Fixes
+
+- **"N/C" on all actions**: Press any Moza button or dial to trigger SDK initialization
+- **Plugin won't load / crashes**: Update to v1.0.3+ (bundles .NET runtime)
+- **Pit House launches at boot**: Update to v1.0.2+ (deferred initialization)
+- **Preset shows skipped settings**: Some preset fields have no SDK support — this is expected
 
 ### Log Files
 

@@ -427,10 +427,10 @@
             "UUID": "com.dbce.moza-streamdeck.refresh",
             "Name": "Refresh Connection",
             "Tooltip": "Re-establish connection to Moza SDK and refresh all button displays",
-            "Icon": "Images/settingsIcon",
+            "Icon": "Images/refreshIcon",
             "States": [
                 {
-                    "Image": "Images/settingsIcon",
+                    "Image": "Images/refreshIcon",
                     "TitleAlignment": "bottom"
                 }
             ],

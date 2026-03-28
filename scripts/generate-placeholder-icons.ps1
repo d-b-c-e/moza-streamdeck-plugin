@@ -171,6 +171,9 @@ New-PlaceholderIcon -Name "handsOffIcon" -Label "Hands`nOff" -BackgroundColor "#
 New-PlaceholderIcon -Name "blipToggleIcon" -Label "Auto`nBlip" -BackgroundColor "#B8860B"
 New-PlaceholderIcon -Name "blipIcon" -Label "Blip`nOutput" -BackgroundColor "#DAA520" -GenerateVariants
 
+# Refresh connection
+New-PlaceholderIcon -Name "refreshIcon" -Label "Refresh`nConnection" -BackgroundColor "#2E7D32"
+
 # Preset (profile switcher)
 New-PlaceholderIcon -Name "presetIcon" -Label "Apply`nPreset" -BackgroundColor "#6A0DAD"
 
